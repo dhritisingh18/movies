@@ -12,9 +12,9 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://myusername.github.io/my-app",
+    "homepage": "https://myusername.github.io/movies-application",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "scripts": {
     "start": "react-scripts start",
