@@ -151,7 +151,7 @@ class Movie extends Component{
                                                    <p style={{color:'white'}}>{this.state.movieCur.overview}</p>
                                                     </div>
 
-                                                    <h4>{this.state.sameGenreMovies.length>0 && "You may also like"}</h4>
+                                                    <h4 style={{padding:"1rem"}}>{this.state.sameGenreMovies.length>0 && "   You may also like"}</h4>
                                                     <div className="modal-footer"style={{justifyContent:"flex-start"}} >
                                                        
                                             
