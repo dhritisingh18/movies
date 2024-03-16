@@ -142,3 +142,16 @@
 .fav-table{
   padding: 3rem;
 }
+
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-item {
+  order: 1; /* Aligns to the left */
+}
+
+.right-item {
+  order: 2; /* Aligns to the right */
+}

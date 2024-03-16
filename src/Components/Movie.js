@@ -139,11 +139,11 @@ class Movie extends Component{
                                               
                                                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
                                                 <div class="modal-dialog">
-                                                    <div class="modal-content" style={{background:'rgb(100, 111, 237)'}}>
+                                                    <div class="modal-content" style={{background:'rgb(0,0,0)'}}>
                                                     <div class="modal-header">
-                                                    <h1 class="modal-title fs-1" id="exampleModalLabel" style={{color:'white'}} >{this.state.movieCur.title}</h1>
-
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style={{color:"white"}}></button>
+                                                    <h1 className="modal-title fs-1 left-item" id="exampleModalLabel" style={{color:'white'}} >{this.state.movieCur.title}</h1>
+                                                    <a className="btn btn-primary right-item" onClick={()=>this.handleFav(this.state.movieCur)} style={{display:"block"}}>{this.state.favMovie.includes(this.state.movieCur.id) ? "Remove from Favourite" : "Add to Favourites"}</a>
+                                                    {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style={{color:"white"}}></button> */}
 
                                                     </div>
                                                     <div class="modal-body">
@@ -151,7 +151,7 @@ class Movie extends Component{
                                                    <p style={{color:'white'}}>{this.state.movieCur.overview}</p>
                                                     </div>
 
-                                                    <h2>{this.state.sameGenreMovies.length>0 && "You may also like"}</h2>
+                                                    <h4>{this.state.sameGenreMovies.length>0 && "You may also like"}</h4>
                                                     <div className="modal-footer"style={{justifyContent:"flex-start"}} >
                                                        
                                             
@@ -160,14 +160,13 @@ class Movie extends Component{
                                                             this.state.sameGenreMovies.map((mov)=>(
                                                                 <div style={{textAlign:"left",width:"5rem"}} >
                                                                 <img src={`https://image.tmdb.org/t/p/original${mov.backdrop_path}`} alt={mov.title} className="card-img-top" style={{width:"3rem"}}/>
-                                                                <h5>{mov.title}</h5>
+                                                                <h6>{mov.title}</h6>
                                                                 </div>
                                                                 ))
 
                                                         }
                                                          </div>
 
-                                                         <a className="btn btn-primary" onClick={()=>this.handleFav(this.state.movieCur)} style={{display:"block"}}>{this.state.favMovie.includes(this.state.movieCur.id) ? "Remove from Favourite" : "Add to Favourites"}</a>
 
 
                                                     </div>
