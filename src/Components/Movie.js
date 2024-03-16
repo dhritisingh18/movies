@@ -155,12 +155,12 @@ class Movie extends Component{
                                                     <div className="modal-footer"style={{justifyContent:"flex-start"}} >
                                                        
                                             
-                                                        <div style={{display:"flex",justifyContent:"space-between",overflow:"auto",padding:"0.5rem"}}>
+                                                        <div style={{display:"flex",justifyContent:"space-between",overflow:"hidden",padding:"1rem", flexWrap:"wrap"}}>
                                                         {
                                                             this.state.sameGenreMovies.map((mov)=>(
-                                                                <div style={{textAlign:"left",width:"5rem"}} >
-                                                                <img src={`https://image.tmdb.org/t/p/original${mov.backdrop_path}`} alt={mov.title} className="card-img-top" style={{width:"3rem"}}/>
-                                                                <h6>{mov.title}</h6>
+                                                                <div style={{textAlign:"left",width:"8rem",justifyContent:"space-between"}} >
+                                                                <img src={`https://image.tmdb.org/t/p/original${mov.backdrop_path}`} alt={mov.title} className="card-img-top" style={{width:"6rem"}}/>
+                                                                <h6 style={{fontSize:"0.6rem"}}>{mov.title}</h6>
                                                                 </div>
                                                                 ))
 
