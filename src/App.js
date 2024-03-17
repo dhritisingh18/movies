@@ -15,7 +15,7 @@ function App() {
       <Routes>
       <Route path='/favourites' exact element={<Favourites />}  />
 
-        <Route path='/' exact element={
+        <Route path='/movies' exact element={
             <>
               <Banner />
               <Movie />
