@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Movie App! This web application is designed to provide users with a seamless experience in discovering, exploring, and managing their favorite movies.
 
-## Available Scripts
+## Features:
 
-In the project directory, you can run:
+1. **Movie Display:** 
+   - The app displays various movies along with their images and genres.
+   - Movies are categorized based on genres for easy navigation and exploration.
 
-### `npm start`
+2. **Pagination:** 
+   - Navigate through multiple pages of movies effortlessly with pagination.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Favorites Management:** 
+   - Users can add movies to their favorites list and remove them as desired.
+   - A dedicated section/tab is provided to manage and view favorited movies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Detailed Movie Information:**
+   - Hover over a movie to view detailed information about it, including synopsis, cast, and related movies.
 
-### `npm test`
+5. **Related Movies:**
+   - Users are presented with related movies based on the genre of the movie they are hovering over.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **Search Functionality:**
+   - Easily search among favorite movies to find specific titles.
+  
+7. **Sorting:**
+   - Sort favorite movies by popularity, rating, and genre for better organization and exploration.
 
-### `npm run build`
+8. **Local Storage:**
+   - Utilizes local storage to store and retrieve user preferences, including favorite movies and sorting options.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used:
+- ReactJS: The app is built using ReactJS, providing a fast and efficient user interface.
+- Local Storage: Utilized for storing user preferences and favorites locally in the browser.
+- CSS: Custom styling for an appealing and intuitive user interface.
+- Pagination Library: Integrated pagination functionality for seamless navigation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation:
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage:
+- Browse through various movies using the genre categorization.
+- Hover over a movie to see detailed information and related recommendations.
+- Add movies to favorites by clicking the corresponding button.
+- Remove movies from favorites as needed.
+- Use pagination to navigate between different pages of movies.
+- Utilize the search functionality to find specific movies within your favorites.
+- Sort favorite movies by popularity, rating, or genre for better organization.
 
-### `npm run eject`
+## Contributing:
+We welcome contributions from the community to enhance and improve the Movie App. Feel free to fork the repository, make your changes, and submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits:
+- This app is created and maintained by Dhriti Singh.
+- Movie data is sourced from https://api.themoviedb.org/3/movie/popular?api_key=78e126cc9ebccbac70f567c2d36fccd7&language=en-US&page=1.
+- Pagination functionality is implemented.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using our Movie App! If you have any feedback or suggestions, please don't hesitate to reach out. Enjoy exploring your favorite movies!
