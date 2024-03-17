@@ -42,6 +42,7 @@ Welcome to my Movie App! This web application is designed to provide users with 
 3. Run `npm install` to install dependencies.
 4. Run `npm start` to start the development server.
 5. Open your browser and go to `http://localhost:3000` to view the app.
+6. Visit the hosted app - https://dhritisingh18.github.io/movies
 
 ## Usage:
 - Browse through various movies using the genre categorization.
